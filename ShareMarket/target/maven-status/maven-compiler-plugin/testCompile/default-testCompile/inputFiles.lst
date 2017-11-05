@@ -1,0 +1,12 @@
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\period\update\PeriodicDataUpdaterTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\period\update\PeriodicDataDBLoaderTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\daily\update\DailyDataUpdaterTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\dao\StockHistoryDataDaoTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\sql\prepare\InsertSqlPreparerTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\dao\DAOManagerTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\period\update\PeriodicNSEDataFetcherTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\daily\update\DailyNSEDataFetcherTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\parser\NSECSVParserTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\daily\update\DailyDataDBLoaderTest.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\period\update\PeriodicNSEDataFetcherMock.java
+D:\MyPractice\ShareMarket\src\test\java\com\dinesh\share\market\properties\PropertiesReaderTest.java

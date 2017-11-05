@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.098" errors="0" skipped="0" tests="7" name="com.dinesh.share.market.daily.update.DailyDataUpdaterTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\apps\jdk_1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\MyPractice\ShareMarket"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\apps\jdk_1.7.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\d5s\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apps\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\apps\jdk_1.7.0_25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\d5s\oracle11g\product\11.2.0\dbhome_1\bin;C:\APPS\svncmdline\bin;C:\APPS\maven3\bin;C:\APPS\notepad++;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\APPS\tortoisesvn\bin;C:\APPS\ant\bin;C:\APPS\bc;D:\SourceCode;C:\Program Files (x86)\PuTTY;C:\APPS\7zip;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Python27;C:\jython2.5.2;C:\jython2.5.2\bin;C:\apps\jdk_1.7.0_25\bin;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\PuTTY\;C:\Python27\Scripts;C:\Users\d5s\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\d5s\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Docker Toolbox;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="D:\userdata\d5s"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="d5s"/>
+    <property name="java.class.path" value="C:\apps\maven3\bin\..\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\apps\jdk_1.7.0_25\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -s D:\SourceCode\NAC_settings\settings_share.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="C:\apps\jdk_1.7.0_25\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\apps\jdk_1.7.0_25\jre\lib\resources.jar;C:\apps\jdk_1.7.0_25\jre\lib\rt.jar;C:\apps\jdk_1.7.0_25\jre\lib\sunrsasign.jar;C:\apps\jdk_1.7.0_25\jre\lib\jsse.jar;C:\apps\jdk_1.7.0_25\jre\lib\jce.jar;C:\apps\jdk_1.7.0_25\jre\lib\charsets.jar;C:\apps\jdk_1.7.0_25\jre\lib\jfr.jar;C:\apps\jdk_1.7.0_25\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apps\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.053" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testLoadDailyDataForDataUpdaterException"/>
+  <testcase time="0.009" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testFilterDataToLoadForSereies_ALL"/>
+  <testcase time="0.009" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testFilterDataToLoad"/>
+  <testcase time="0.012" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testFetchDailyData"/>
+  <testcase time="0.007" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testFetchDailyDataWithDataUpdaterExceptionCausedByIOException"/>
+  <testcase time="0.004" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testFilterDataToLoadForDataUpdaterExceptionCausedByIOException"/>
+  <testcase time="0.004" classname="com.dinesh.share.market.daily.update.DailyDataUpdaterTest" name="testLoadDailyData"/>
+</testsuite>

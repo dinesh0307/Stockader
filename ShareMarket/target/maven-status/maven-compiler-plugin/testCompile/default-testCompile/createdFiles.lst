@@ -1,0 +1,12 @@
+com\dinesh\share\market\properties\PropertiesReaderTest.class
+com\dinesh\share\market\period\update\PeriodicNSEDataFetcherTest.class
+com\dinesh\share\market\dao\StockHistoryDataDaoTest.class
+com\dinesh\share\market\period\update\PeriodicDataDBLoaderTest.class
+com\dinesh\share\market\dao\DAOManagerTest.class
+com\dinesh\share\market\period\update\PeriodicNSEDataFetcherMock.class
+com\dinesh\share\market\period\update\PeriodicDataUpdaterTest.class
+com\dinesh\share\market\daily\update\DailyDataDBLoaderTest.class
+com\dinesh\share\market\parser\NSECSVParserTest.class
+com\dinesh\share\market\daily\update\DailyNSEDataFetcherTest.class
+com\dinesh\share\market\daily\update\DailyDataUpdaterTest.class
+com\dinesh\share\market\sql\prepare\InsertSqlPreparerTest.class
